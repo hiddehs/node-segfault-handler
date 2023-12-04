@@ -344,4 +344,5 @@ extern "C" {
   }
 
   NODE_MODULE(segfault_handler, init)
+  NAN_MODULE_WORKER_ENABLED(segfault_handler, init)
 }
